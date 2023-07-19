@@ -1,0 +1,129 @@
+{
+    "name": "Kaguya Client theme",
+    "description": "The official theme of Kaguya Client",
+    "authors": [
+        {
+            "name": "immayunnaise",
+            "id": "1020384273510973500"
+        }
+    ],
+    "semanticColors": {
+        "HEADER_PRIMARY": [
+            "#EDBDED"
+        ],
+        "HEADER_SECONDARY": [
+            "#8B4C90"
+        ],
+        "TEXT_NORMAL": [
+            "#F89FFF"
+        ],
+        "TEXT_MUTED": [
+            "#904C90"
+        ],
+        "TEXT_LINK": [
+            "#FF00FF"
+        ],
+        "TEXT_DANGER": [
+            "#8B4C90"
+        ],
+        "INTERACTIVE_NORMAL": [
+            "#ffffff"
+        ],
+        "INTERACTIVE_ACTIVE": [
+            "#ffffff"
+        ],
+        "INTERACTIVE_MUTED": [
+            "#F490FC"
+        ],
+        "BACKGROUND_PRIMARY": [
+            "#7E2483"
+        ],
+        "BACKGROUND_SECONDARY": [
+            "#9D1AAF"
+        ],
+        "BACKGROUND_SECONDARY_ALT": [
+            "#5C0065"
+        ],
+        "BACKGROUND_TERTIARY": [
+            "#4F1453"
+        ],
+        "BACKGROUND_ACCENT": [
+            "#8C4C90"
+        ],
+        "BACKGROUND_FLOATING": [
+            "#451147"
+        ],
+        "BACKGROUND_MOBILE_PRIMARY": [
+            "#45004D"
+        ],
+        "BACKGROUND_MOBILE_SECONDARY": [
+            "#45004D"
+        ],
+        "BACKGROUND_NESTED_FLOATING": [
+            "#49204C"
+        ],
+        "BACKGROUND_MENTIONED": [
+            "#501C4F"
+        ],
+        "BACKGROUND_MODIFIER_ACTIVE": [
+            "#330C36"
+        ],
+        "BACKGROUND_MODIFIER_SELECTED": [
+            "#8C4C90"
+        ],
+        "BACKGROUND_MODIFIER_ACCENT": [
+            "#270E28"
+        ],
+        "SPOILER_HIDDEN_BACKGROUND": [
+            "#240824"
+        ],
+        "SPOILER_REVEALED_BACKGROUND": [
+            "transparent"
+        ],
+        "CHANNEL_TEXT_AREA_PLACEHOLDER": [
+            "#F87EFE"
+        ],
+        "CHAT_BACKGROUND": [
+            "#3B0E3D"
+        ],
+        "CHANNELS_DEFAULT": [
+            "#FF00FF"
+        ],
+        "TEXT_LINK": [
+            "#8D4C90"
+        ],
+        "CHANNEL_ICON": [
+            "#C000FF"
+        ]
+    },
+    "rawColors": {
+        "PRIMARY_100": "#ffffff",
+        "PRIMARY_200": "#ffffff",
+        "PRIMARY_300": "#ffffff",
+        "PRIMARY_360": "#8B4C90",
+        "PRIMARY_500": "#8B4C90",
+        "PRIMARY_600": "#240823",
+        "PRIMARY_630": "#240823",
+        "PRIMARY_660": "#240823",
+        "PRIMARY_700": "#240823",
+        "PRIMARY_800": "#240823",
+        "BRAND_260": "#904C8D",
+        "BRAND_360": "#904C8D",
+        "BRAND_500": "#904C8D",
+        "BRAND_560": "#ffffff",
+        "WHITE_500": "#ffffff",
+        "BLUE_345": "#904C8D",
+        "YELLOW_300": "#904C8D",
+        "ORANGE_345": "#904C8D",
+        "GREEN_345": "#904C8D",
+        "GREEN_360": "#904C8D",
+        "RED_560" : "#904C8D",
+        "RED_400": "#904C8D"
+    },
+    "spec": 2,
+    "background": {
+        "url": "https://cdn.discordapp.com/attachments/1061736973989068963/1127211186572771448/20230708_141408.gif",
+        "alpha": 0.1,
+        "color": "#240824"
+    }
+}
