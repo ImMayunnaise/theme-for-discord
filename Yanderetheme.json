@@ -1,0 +1,139 @@
+{
+    "name": "Yandere Client theme",
+    "description": "A theme for client mobile",
+    "authors": [
+        {
+            "name": "immayunnaise, _.yuki._",
+            "id": "1020384273510973500, 1101246377826205707"
+        }
+    ],
+    "semanticColors": {
+        "HEADER_PRIMARY": [
+            "#FF6B6E"
+        ],
+        "HEADER_SECONDARY": [
+            "#FF6B6E"
+        ],
+        "TEXT_NORMAL": [
+            "#F3D6D6"
+        ],
+        "TEXT_MUTED": [
+            "#B06F6F"
+        ],
+        "INTERACTIVE_NORMAL": [
+            "#FF6B6E"
+        ],
+        "INTERACTIVE_HOVER": [
+            "#6B2D37"
+        ],
+        "INTERACTIVE_ACTIVE": [
+            "#FF6B6E"
+        ],
+        "INTERACTIVE_MUTED": [
+            "#8C4C50"
+        ],
+        "BACKGROUND_PRIMARY": [
+            "#231A18"
+        ],
+        "BACKGROUND_SECONDARY": [
+            "#2C1F1A"
+        ],
+        "BACKGROUND_SECONDARY_ALT": [
+            "#2C1F1A"
+        ],
+        "BACKGROUND_TERTIARY": [
+            "#231A18"
+        ],
+        "BACKGROUND_ACCENT": [
+            "#6B2D37"
+        ],
+        "BACKGROUND_FLOATING": [
+            "#2C1F1A"
+        ],
+        "BACKGROUND_MOBILE_PRIMARY": [
+            "#2C1F1A"
+        ],
+        "BACKGROUND_MOBILE_SECONDARY": [
+            "#2C1F1A"
+        ],
+        "BACKGROUND_NESTED_FLOATING": [
+            "#2C1F1A"
+        ],
+        "BACKGROUND_MESSAGE_HOVER": [
+            "#4C2E2E"
+        ],
+        "BACKGROUND_MODIFIER_HOVER": [
+            "#4C2E2E"
+        ],
+        "BACKGROUND_MODIFIER_ACTIVE": [
+            "#572F30"
+        ],
+        "BACKGROUND_MODIFIER_SELECTED": [
+            "#542F2F"
+        ],
+        "BACKGROUND_MODIFIER_ACCENT": [
+            "#6B2D37"
+        ],
+        "SCROLLBAR_THIN_THUMB": [
+            "#33334D"
+        ],
+        "SCROLLBAR_THIN_TRACK": [
+            "transparent"
+        ],
+        "SCROLLBAR_AUTO_THUMB": [
+            "#E0B4AA"
+        ],
+        "SCROLLBAR_AUTO_TRACK": [
+            "#E0B4AA"
+        ],
+        "CHANNELTEXTAREA_BACKGROUND": [
+            "#4E413C"
+        ],
+        "CHANNELS_DEFAULT": [
+            "#B69D9A"
+        ],
+        "TEXT_LINK": [
+            "#B69D9A"
+        ],
+        "TEXT_DANGER": [
+            "#6B2D37"
+        ],
+        "KEYBOARD": [
+            "#231A18"
+        ],
+        "CHANNEL_ICON": [
+            "#FF6B6E"
+        ],
+        "CHAT_BACKGROUND": [
+            "#231A18"
+        ]
+    },
+    "rawColors": {
+        "PRIMARY_500": "#B69D9A",
+        "PRIMARY_100": "#FF6B6E",
+        "PRIMARY_200": "#FFA6A8",
+        "PRIMARY_300": "#B69D9A",
+        "PRIMARY_360": "#B69D9A",
+        "PRIMARY_400": "#B69D9A",
+        "PRIMARY_600": "#1A130F",
+        "PRIMARY_630": "#271A15",
+        "PRIMARY_660": "#271A15",
+        "PRIMARY_700": "#1A130F",
+        "PRIMARY_800": "#1A130F",
+        "BRAND_260": "#8C4C50",
+        "BRAND_360": "#D3A19D",
+        "BRAND_500": "#8C4C50",
+        "BRAND_560": "#D3A19D",
+        "YELLOW_300": "#8C4C50",
+        "GREEN_600": "#FF6B6E",
+        "RED_400": "#B69D9A",
+        "WHITE_500": "#FF6B6E",
+        "GREEN_360": "#6B2D37"
+    },
+    "spec": 2,
+    "background": {
+        "url": "https://wallpapercave.com/wp/wp6625797.jpg",
+        "alpha": 0.1,
+        "color": "#3A0A27"
+    }
+}
