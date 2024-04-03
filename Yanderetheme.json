@@ -66,12 +66,6 @@
 
         ],
 
-        "BACKGROUND_PRIMARY": [
-
-            "#231A18"
-
-        ],
-
         "BACKGROUND_SECONDARY": [
 
             "#2C1F1A"
@@ -91,12 +85,6 @@
         ],
 
         "BACKGROUND_FLOATING": [
-
-            "#2C1F1A"
-
-        ],
-
-        "BACKGROUND_MOBILE_PRIMARY": [
 
             "#2C1F1A"
 
@@ -203,14 +191,6 @@
             "#FF6B6E"
 
         ],
-
-        "CHAT_BACKGROUND": [
-
-            "#231A18"
-
-        ]
-
-    },
 
     "rawColors": {
 
