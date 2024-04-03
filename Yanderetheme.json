@@ -3,7 +3,7 @@
     "description": "A theme for client mobile",
     "authors": [
         {
-            "name": "immayunnaise, .yuki.",
+            "name": "immayunnaise, _.yuki._",
             "id": "1020384273510973500, 1101246377826205707"
         }
     ],
@@ -33,8 +33,8 @@
             "#8C4C50"
         ],
         "BACKGROUND_PRIMARY": [
-            "#E9E9E9"
-        ], // Couleur de fond claire
+            "#231A18"
+        ],
         "BACKGROUND_SECONDARY": [
             "#2C1F1A"
         ],
@@ -133,6 +133,7 @@
     "spec": 2,
     "background": {
         "url": "https://wallpapercave.com/wp/wp6625797.jpg",
-        "alpha": 0.1
+        "alpha": 0.1,
+        "color": "#3A0A27"
     }
 }
