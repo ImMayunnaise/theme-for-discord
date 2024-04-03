@@ -8,21 +8,105 @@
         }
     ],
     "semanticColors": {
-        "HEADER_PRIMARY": ["#FF6B6E"],
-        "HEADER_SECONDARY": ["#FF6B6E"],
-        "TEXT_NORMAL": ["#F3D6D6"],
-        "TEXT_MUTED": ["#B06F6F"],
-        "INTERACTIVE_NORMAL": ["#FF6B6E"],
-        "INTERACTIVE_HOVER": ["#6B2D37"],
-        "INTERACTIVE_ACTIVE": ["#FF6B6E"],
-        "INTERACTIVE_MUTED": ["#8C4C50"],
-        "SCROLLBAR_THIN_THUMB": ["#33334D"],
-        "CHANNELTEXTAREA_BACKGROUND": ["#4E413C"],
-        "CHANNELS_DEFAULT": ["#B69D9A"],
-        "TEXT_LINK": ["#B69D9A"],
-        "TEXT_DANGER": ["#6B2D37"],
-        "KEYBOARD": ["#231A18"],
-        "CHANNEL_ICON": ["#FF6B6E"]
+        "HEADER_PRIMARY": [
+            "#FF6B6E"
+        ],
+        "HEADER_SECONDARY": [
+            "#FF6B6E"
+        ],
+        "TEXT_NORMAL": [
+            "#F3D6D6"
+        ],
+        "TEXT_MUTED": [
+            "#B06F6F"
+        ],
+        "INTERACTIVE_NORMAL": [
+            "#FF6B6E"
+        ],
+        "INTERACTIVE_HOVER": [
+            "#6B2D37"
+        ],
+        "INTERACTIVE_ACTIVE": [
+            "#FF6B6E"
+        ],
+        "INTERACTIVE_MUTED": [
+            "#8C4C50"
+        ],
+        "BACKGROUND_PRIMARY": [
+            "#231A18"
+        ],
+        "BACKGROUND_SECONDARY": [
+            "#2C1F1A"
+        ],
+        "BACKGROUND_SECONDARY_ALT": [
+            "#2C1F1A"
+        ],
+        "BACKGROUND_TERTIARY": [
+            "#231A18"
+        ],
+        "BACKGROUND_ACCENT": [
+            "#6B2D37"
+        ],
+        "BACKGROUND_FLOATING": [
+            "#2C1F1A"
+        ],
+        "BACKGROUND_MOBILE_PRIMARY": [
+            "#2C1F1A"
+        ],
+        "BACKGROUND_MOBILE_SECONDARY": [
+            "#2C1F1A"
+        ],
+        "BACKGROUND_NESTED_FLOATING": [
+            "#2C1F1A"
+        ],
+        "BACKGROUND_MESSAGE_HOVER": [
+            "#4C2E2E"
+        ],
+        "BACKGROUND_MODIFIER_HOVER": [
+            "#4C2E2E"
+        ],
+        "BACKGROUND_MODIFIER_ACTIVE": [
+            "#572F30"
+        ],
+        "BACKGROUND_MODIFIER_SELECTED": [
+            "#542F2F"
+        ],
+        "BACKGROUND_MODIFIER_ACCENT": [
+            "#6B2D37"
+        ],
+        "SCROLLBAR_THIN_THUMB": [
+            "#33334D"
+        ],
+        "SCROLLBAR_THIN_TRACK": [
+            "transparent"
+        ],
+        "SCROLLBAR_AUTO_THUMB": [
+            "#E0B4AA"
+        ],
+        "SCROLLBAR_AUTO_TRACK": [
+            "#E0B4AA"
+        ],
+        "CHANNELTEXTAREA_BACKGROUND": [
+            "#4E413C"
+        ],
+        "CHANNELS_DEFAULT": [
+            "#B69D9A"
+        ],
+        "TEXT_LINK": [
+            "#B69D9A"
+        ],
+        "TEXT_DANGER": [
+            "#6B2D37"
+        ],
+        "KEYBOARD": [
+            "#231A18"
+        ],
+        "CHANNEL_ICON": [
+            "#FF6B6E"
+        ],
+        "CHAT_BACKGROUND": [
+            "#231A18"
+        ]
     },
     "rawColors": {
         "PRIMARY_500": "#B69D9A",
@@ -49,6 +133,7 @@
     "spec": 2,
     "background": {
         "url": "https://wallpapercave.com/wp/wp6625797.jpg",
-        "alpha": 1
+        "alpha": 1,
+        "color": "#3A0A27"
     }
 }
