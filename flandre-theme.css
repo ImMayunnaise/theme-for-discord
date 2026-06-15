@@ -1,0 +1,245 @@
+/**
+ * @name Animecord
+ * @author immayunnaise
+ * @description A custom anime Discord theme balanced with warm autumn colors.
+ * @version 2.1
+ * @authorId 893960265115267132
+ * @based from Kemono, mica and midnight theme, all credit are for they i'm just a designer change value and know a little what make what in a discord css file
+ */
+
+/* ==========================================================
+                             IMPORTS
+   ========================================================== */
+@import url("https://discord-mica.pages.dev/src/main.css");
+@import url("https://refact0r.github.io/midnight-discord/build/midnight.css");
+
+/* ==========================================================
+                    VARIABLES AND STRUCTURE
+   ========================================================== */
+
+:root {
+    /* Background */
+    --dark-bg: url("https://i.imgur.com/1jOmaYl.png") !important;
+    background: var(--dark-bg) no-repeat center center fixed !important;
+    background-size: cover !important;
+    background-color: var(--app-bg) !important;
+    
+    /* Palette Flandre Scarlet - Éléments Principaux */
+    --dark-accent: #e60033 !important;                 /* Rouge rubis éclatant */
+    --dark-accent-hovered: #b30022 !important;         /* Rouge plus sombre au survol */
+    --dark-accent-font-color: #ffffff !important;      /* Texte blanc sur fond rouge */
+    --dark-button: rgba(230, 0, 51, 0.2) !important;   /* Boutons transparents teintés rouge */
+    --dark-button-border: rgba(255, 255, 255, 0.1) !important;
+    --dark-button-font-color: #ffd3dc !important;      /* Rose poudré sur les boutons */
+    --role-color-saturation-boost: 30% !important; /* Augmente la vivacité des couleurs de rôles */
+    --role-color-lightness-boost: 20% !important;  /* Force les rôles sombres à devenir plus clairs et lisibles */
+
+    /* Menus et Panels (Inspirés de l'ambiance sombre de l'image) */
+    --dark-flyout: rgb(15, 5, 8) !important;
+    --dark-background-accent: rgba(20, 5, 10, 0.7) !important;
+    --dark-status-panel: rgba(11, 2, 3, 0.6) !important;
+    --custom-app-top-bar-height: calc(24px + var(--space-sm));
+    --title-bar-icon: flex;
+    --interactive-normal: #ffb3c1 !important; /* Un rose un poil plus vif pour éclaircir les salons inactifs */
+}
+
+body {
+    --font: "figtree";
+    --gap: 10px;
+    --divider-thickness: 4px;
+    --border-thickness: 1px;
+    --animations: on;
+    --list-item-transition: 0.2s ease;
+    --dms-icon-svg-transition: 0.4s ease;
+    --top-bar-height: var(--gap);
+    --top-bar-button-position: on;
+    --top-bar-title-position: on;
+    --subtle-top-bar-title: on;
+    --custom-window-controls: on;
+    --window-control-size: 14px;
+    --custom-dms-icon: off;
+    --dms-icon-svg-url: url("");
+    --dms-icon-svg-size: 100%;
+    --dms-icon-color-before: var(--icon-secondary);
+    --dms-icon-color-after: var(--white);
+    --custom-dms-background: off;
+    --dms-background-image-url: url("");
+    --dms-background-image-size: cover;
+    --dms-background-color: rgba(0, 0, 0, 0.2);
+    --background-image: off;
+    --background-image-url: url("");
+    --transparency-tweaks: on;
+    --remove-bg-layer: on;
+    --panel-blur: on;
+    --blur-amount: 8px;
+    --bg-floating: #0f0508;
+    --custom-chatbar: aligned;
+    --chatbar-height: 50px;
+    --chatbar-padding: 10px;
+    --small-user-panel: on;
+}
+
+:root {
+    --colors: on;
+    
+    /* Cartographie Précise des Textes (Midnight Discord) */
+    --text-0: #ffd3dc !important;        /* Blanc pur de secours */
+    --text-1: #ffa6b8 !important;        /* Écritures annexes */
+    --text-2: #ffa6b8 !important;        /* TEXTE TERTIAIRE : Rubriques de profils, titres de catégories ("Bio", "Member Since") */
+    --text-3: #ffa6b8 !important;        /* TEXTE DE BASE : Le corps de texte principal (messages du chat, contenu de la bio) */
+    --text-4: #ff3366 !important;        /* PSEUDOS & SECTIONS : Nom utilisateur principal ("Chara") */
+    --text-5: #e60033 !important;        /* TITRES MAJEURS & LIENS : Liens hypertextes et boutons d'onglets principaux */
+    --text-muted: #ffa6b8 !important; /* Force les pseudos des bots et textes secondaires système à passer en rose lisible */
+
+    /* Opacités des salons */
+    --bg-1: rgba(255, 255, 255, 0.03) !important;
+    --bg-2: rgba(255, 255, 255, 0.06) !important;
+    --bg-3: rgba(255, 255, 255, 0.09) !important;
+    --bg-4: rgba(255, 255, 255, 0.12) !important;
+
+    /* États de survol */
+    --hover: rgba(230, 0, 51, 0.1) !important;
+    --active: rgba(230, 0, 51, 0.18) !important;
+    --active-2: rgba(230, 0, 51, 0.25) !important;
+
+    --accent-1: #e60033 !important;
+    --accent-2: #ff9fb1 !important;
+    --accent-3: #b30022 !important;
+    --accent-4: #ffa6b8 !important;
+    --accent-5: #e60033;                 /* Rappel doré des ailes */
+    --accent-new: #e60033;
+
+    /* Statuts Discord */
+    --online: #00ffc8;
+    --dnd: #e60033;
+    --idle: #f4c430;
+    --streaming: #6f00ff;
+    --offline: #ffffff;
+
+    --border-light: rgba(255, 255, 255, 0.05) !important;
+    --border: rgba(255, 255, 255, 0.12) !important;
+    --button-border: rgba(255, 255, 255, 0.08) !important;
+}
+
+/* Assombrissement global des conteneurs pour lire les écritures blanches sans problème */
+.layers__160d8 {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.chat__52833,
+.chatContent__5dca8,
+.container__133bf,
+.sidebar_ded4b5,
+.membersWrap__c6c02,
+.privateChannels__934e8,
+.container_fb64c9,
+.panels__3a1c6 {
+    background-color: rgba(10, 4, 6, 0.85) !important; /* Passe de 0.7 à 0.85 pour bloquer les interférences du fond */
+    backdrop-filter: blur(8px) !important;
+    border-radius: 12px !important;
+    margin: 5px !important;
+    border: 1px solid rgba(230, 0, 51, 0.2) !important; /* Filet lumineux Écarlate discret */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6) !important;
+}
+
+.container_c8ffbb,
+.chat_f75fb0,
+.scroller_ef3116,
+.privateChannels__35e86 {
+    background: transparent !important;
+}
+
+/* Zone d'écriture du chat textuel */
+.channelTextArea__2b311 {
+    background: rgba(15, 5, 8, 0.85) !important;
+    border: 1px solid rgba(230, 0, 51, 0.45) !important; /* Remplace le 0.35 par 0.45 pour un filet rouge plus net et assorti aux panneaux */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5) !important;
+    border-radius: 24px !important;
+    margin-bottom: 8px !important;
+}
+
+/* Contours des encadrés d'annonces / Embeds */
+.embedFull__b1984 {
+    background-color: rgba(15, 5, 8, 0.8) !important;
+    border-left: 4px solid var(--dark-accent) !important;
+    border-radius: 8px !important;
+}
+
+/* ==========================================================
+        INTERACTS ADJUSTMENTS AND NOTIFICATIONS
+   ========================================================== */
+.modeUnreadImportant__63047 .name__8d1ec,
+.modeSelected__473da .name__8d1ec {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    text-shadow: 0 0 6px rgba(230, 0, 51, 0.6) !important; /* Lueur écarlate pour les salons actifs */
+}
+
+.modeSelected__473da .content__901a1 {
+    background: rgba(230, 0, 51, 0.15) !important;
+}
+
+.mention__1afd0,
+.mentionsBadge__7da43 .numberBadge__e016c {
+    background-color: #e60033 !important;
+    color: #ffffff !important;
+}
+
+.discord-overlay {
+    backdrop-filter: blur(4px);
+    background-color: rgba(11, 2, 3, 0.6);
+    border: 1px solid rgba(230, 0, 51, 0.2);
+}
+
+.status-indicator-online { background-color: var(--online); }
+.status-indicator-dnd { background-color: var(--dnd); }
+.status-indicator-idle { background-color: var(--idle); }
+.status-indicator-streaming { background-color: var(--streaming); }
+.status-indicator-offline { background-color: var(--offline); }
+
+/* ==========================================================
+                    BUTTON HOME CONFIGURATION
+   ========================================================== */
+.tutorialContainer__1f388 .childWrapper__6e9f8 {
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: var(--homeImage);
+    background-size: var(--homeImageSize);
+    background-clip: border-box;
+}
+
+.tutorialContainer__1f388 .wrapper__8436d:hover .childWrapper__6e9f8 {
+    background-color: rgba(230, 0, 51, 0.25) !important;
+}
+
+.tutorialContainer__1f388 .childWrapper__6e9f8>svg,
+.tutorialContainer__1f388 .childWrapper__6e9f8 .homeIcon-tEMBK1,
+.childWrapper__6e9f8 .homeIcon-FuNwkv,
+.homeIcon__560eb>* {
+    display: none !important;
+}
+
+.homeIcon__560eb {
+    background-color: transparent !important;
+    background-image: var(--homeImage);
+    background-position: var(--backgroundPosition);
+    background-repeat: var(--backgroundRepeat);
+    background-size: var(--backgroundSize);
+    height: 48px;
+    width: 48px;
+}
+
+/* Ombre de lisibilité pour le texte du chat */
+.messageContent__21e69 {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9) !important;
+}
+
+.placeholder__e68c1 {
+    color: #ffa6b870 !important; /* Rose très transparent pour l'aide à l'écriture */
+}
+
+:root {
+    --homeImage: url('https://i.imgur.com/gulw6wW.jpeg');
+    --homeImageSize: cover;
+}
