@@ -1,46 +1,15 @@
 # 🦇 Flandre Scarlet Discord Theme 🦇
 
-A sleek Discord theme inspired by **Flandre Scarlet**, the crystal-winged vampire from *Touhou Project*. Crafted for a fully immersive visual experience on both **PC** and **Mobile**.
+A sleek Discord theme inspired by **Flandre Scarlet** from *Touhou Project*, crafted for both **PC** and **Mobile**.
 
 ---
 
-## ✨ Features
-
-* **Scarlet Palette**: Color scheme based on crimson red, gothic black, and gold.
-* **Crystal Wings**: Custom icons and borders reminiscent of her iconic wings.
-* **Dual Compatibility**: Fully optimized for desktop (Vencord/BetterDiscord) and mobile (Vendetta/Aliucord).
-* **High Readability**: Strong contrast designed to prevent eye strain.
-
----
-
-## 🚀 Installation
-
-### 💻 On PC (BetterDiscord / Vencord)
-1. Download the `.css` file.
-2. Open your Discord **User Settings**.
-3. Go to the **Themes** tab.
-4. Click **Open Themes Folder**.
-5. Drop the downloaded file inside and toggle it on.
-
-### 📱 On Mobile (Maniac/Vendetta/Aliucord)
-1. Copy the `raw` link of the theme's JSON file.
-2. Open your modified Discord client **Settings**.
-3. Go to the **Themes** section and tap **Install Theme**.
-4. Paste the link and apply.
-
----
-
-## 📜 Credits & License
-* Design by immayunnaise / ⛧Mayu⛧.
-* Character: Flandre Scarlet from *Touhou Project* (Property of Team Shanghai Alice / ZUN).
-
-------------------------------------------------
-
-# 🦇 Flandre Scarlet Discord Theme 🦇
-
-Un thème Discord élégant inspiré par **Flandre Scarlet**, le vampire aux ailes de cristal de *Touhou Project*. Conçu pour offrir une expérience visuelle immersive à la fois sur **PC** et **Mobile**.
-
----
+<table>
+  <tr>
+    <td>
+      <details>
+        <summary><b>🇫🇷 Version Française (Cliquez pour dérouler)</b></summary>
+        <br>
 
 ## ✨ Caractéristiques
 
@@ -54,7 +23,7 @@ Un thème Discord élégant inspiré par **Flandre Scarlet**, le vampire aux ail
 ## 🚀 Installation
 
 ### 💻 Sur PC (BetterDiscord / Vencord)
-1. Téléchargez le fichier `.css`.
+1. Téléchargez le fichier `.theme.css`.
 2. Ouvrez les **Paramètres utilisateur** de Discord.
 3. Allez dans l'onglet **Thèmes**.
 4. Cliquez sur **Ouvrir le dossier des thèmes**.
@@ -68,6 +37,64 @@ Un thème Discord élégant inspiré par **Flandre Scarlet**, le vampire aux ail
 
 ---
 
+## 📸 Aperçu
+
+> [Insérer une capture d'écran de la version PC ici]
+> [Insérer une capture d'écran de la version Mobile ici]
+
+---
+
 ## 📜 Crédits & Licence
-* Design par immayunnaise / ⛧Mayu⛧.
+* Design par [Votre Nom/Pseudo].
 * Personnage : Flandre Scarlet de *Touhou Project* (propriété de Team Shanghai Alice / ZUN).
+
+      </details>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <details>
+        <summary><b>🇬🇧 English Version (Click to expand)</b></summary>
+        <br>
+
+## ✨ Features
+
+* **Scarlet Palette**: Color scheme based on crimson red, gothic black, and gold.
+* **Crystal Wings**: Custom icons and borders reminiscent of her iconic wings.
+* **Dual Compatibility**: Fully optimized for desktop (Vencord/BetterDiscord) and mobile (Vendetta/Aliucord).
+* **High Readability**: Strong contrast designed to prevent eye strain.
+
+---
+
+## 🚀 Installation
+
+### 💻 On PC (BetterDiscord / Vencord)
+1. Download the `.theme.css` file.
+2. Open your Discord **User Settings**.
+3. Go to the **Themes** tab.
+4. Click **Open Themes Folder**.
+5. Drop the downloaded file inside and toggle it on.
+
+### 📱 On Mobile (Maniac/Vendetta/Aliucord)
+1. Copy the `raw` link of the theme's JSON file.
+2. Open your modified Discord client **Settings**.
+3. Go to the **Themes** section and tap **Install Theme**.
+4. Paste the link and apply.
+
+---
+
+## 📸 Preview
+
+> [Insert PC screenshot here]
+> [Insert Mobile screenshot here]
+
+---
+
+## 📜 Credits & License
+* Design by [Your Name/Nickname].
+* Character: Flandre Scarlet from *Touhou Project* (Property of Team Shanghai Alice / ZUN).
+
+      </details>
+    </td>
+  </tr>
+</table>
