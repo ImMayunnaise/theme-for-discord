@@ -39,16 +39,18 @@ A sleek Discord theme inspired by **Flandre Scarlet** from *Touhou Project*, cra
 
 ## 📸 Aperçu
 
-> [Insérer une capture d'écran de la version PC ici]
-> [Insérer une capture d'écran de la version Mobile ici]
+> <img width="2559" height="1549" alt="image" src="https://github.com/user-attachments/assets/6507e91a-3ed4-4f5e-8dc9-b80843e2da76" />
+> <img width="2559" height="1551" alt="image" src="https://github.com/user-attachments/assets/4892c1fc-f545-499b-8ac7-e151e550e17b" />
+> <img width="1220" height="2470" alt="image" src="https://github.com/user-attachments/assets/6f0cf8fc-ca93-4253-be1b-c2a280db6b4d" />
+> <img width="1220" height="2487" alt="image" src="https://github.com/user-attachments/assets/46b2bcd3-1d5f-436b-8fa1-823b25499de8" />
+> <img width="1220" height="2504" alt="image" src="https://github.com/user-attachments/assets/4ba5c63a-ae99-48ed-87da-c325d4a30431" />
 
 ---
 
 ## 📜 Crédits & Licence
-* Design par [Votre Nom/Pseudo].
+* Design par immayunnaise / ⛧Mayu⛧.
 * Personnage : Flandre Scarlet de *Touhou Project* (propriété de Team Shanghai Alice / ZUN).
 
-      </details>
     </td>
   </tr>
   <tr>
@@ -85,16 +87,18 @@ A sleek Discord theme inspired by **Flandre Scarlet** from *Touhou Project*, cra
 
 ## 📸 Preview
 
-> [Insert PC screenshot here]
-> [Insert Mobile screenshot here]
+> <img width="2559" height="1549" alt="image" src="https://github.com/user-attachments/assets/6507e91a-3ed4-4f5e-8dc9-b80843e2da76" />
+> <img width="2559" height="1551" alt="image" src="https://github.com/user-attachments/assets/4892c1fc-f545-499b-8ac7-e151e550e17b" />
+> <img width="1220" height="2470" alt="image" src="https://github.com/user-attachments/assets/6f0cf8fc-ca93-4253-be1b-c2a280db6b4d" />
+> <img width="1220" height="2487" alt="image" src="https://github.com/user-attachments/assets/46b2bcd3-1d5f-436b-8fa1-823b25499de8" />
+> <img width="1220" height="2504" alt="image" src="https://github.com/user-attachments/assets/4ba5c63a-ae99-48ed-87da-c325d4a30431" />
 
 ---
 
 ## 📜 Credits & License
-* Design by [Your Name/Nickname].
+* Design by immayunnaise / ⛧Mayu⛧.
 * Character: Flandre Scarlet from *Touhou Project* (Property of Team Shanghai Alice / ZUN).
 
-      </details>
     </td>
   </tr>
 </table>
